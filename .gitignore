@@ -4,6 +4,9 @@ target
 dependency-reduced-pom.xml
 .DS_Store
 module*.zip
+python/dist
+python/build
+python/toree_kernel.egg-info
 **/node_modules/**
 java/.idea/*
 java/javascriptspark.iml

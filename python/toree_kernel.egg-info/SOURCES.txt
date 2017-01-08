@@ -1,0 +1,7 @@
+setup.py
+toree_kernel.py
+toree_kernel.egg-info/PKG-INFO
+toree_kernel.egg-info/SOURCES.txt
+toree_kernel.egg-info/dependency_links.txt
+toree_kernel.egg-info/requires.txt
+toree_kernel.egg-info/top_level.txt

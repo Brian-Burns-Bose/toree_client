@@ -38,7 +38,7 @@ object ToreeClient extends App {
     "hb_port":      49691,
     "shell_port":   40544,
     "iopub_port":   43462,
-    "ip": "127.0.0.1",
+    "ip": "9.125.72.72",
     "transport": "tcp",
     "signature_scheme": "hmac-sha256",
     "key": ""
@@ -53,7 +53,13 @@ object ToreeClient extends App {
     with StandardHandlerInitialization).createClient()
 
   val toreeGateway = new ToreeGateway(client)
-  print(toreeGateway.eval("sc"))
+  /*
+  val code: String =
+    """
+      |sc.parallelize(List(1,2,3,4,5)).reduce((a, b) => a + b)
+    """.stripMargin
+  print(toreeGateway.eval(args(0)))
+  */
 
   val gatewayServer: GatewayServer = new GatewayServer(toreeGateway)
   gatewayServer.start()

@@ -1,0 +1,16 @@
+*.iml
+.idea
+target
+dependency-reduced-pom.xml
+.DS_Store
+module*.zip
+**/node_modules/**
+java/.idea/*
+java/javascriptspark.iml
+java/target/*
+java/dependency-reduced-pom.xml
+.__browserify_string_empty.js
+.DS_Store
+jupyter-js-services
+examples/airline/public/data/2008bd.json/*
+incubator-toree/*
